@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background: #334d50;  /* fallback for old browsers */
+background-image: -webkit-linear-gradient(to right, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+font-family: "Poppins";
+font-size: 16px;
+background-repeat: no-repeat;
+overflow: hidden;
+
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navigation ul{
+display: flex;
+gap: 14px;
+list-style-type: none;
+}
+
+.wrapper{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin: auto 50px; */
+
+    display: grid;
+margin-top: 80px;
+margin: auto 50px;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+gap: 40px;
+}
+
+.second img{
+    width: auto;
+    height: 80vh;
+    margin-right: 290px;
+    border-radius: 40px;
+    
+  
+}
+
+p{
+ width: 600px;
+}
+
+button{
+    padding: 16px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.goblin{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icons i{
+    margin: 12px 0;
+    cursor: pointer;
+    
+}
+.nav{
+    display: none;
+  
+}
+ul {
+    list-style-type: none;
+}
+.nas{
+    display: none;
+}
+@media(max-width:600px){
+   body{
+    height: 100vh;
+   }
+    .navigation{
+        display: none;
+    }
+    .second img{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    p{
+        width: auto;
+    }
+    .btn-c{
+        width: 40vw;
+        height: 10vh;
+    }
+    .btn-game{
+        width: 40vw;
+        height: 10vh;
+        margin-left: -26px;
+    }
+    .btn{
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+    }
+    .nas{
+        display: block;
+    }
+    .wrapper{
+        margin: auto 20px;
+    }
+    
+}
