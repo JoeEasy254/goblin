@@ -48,7 +48,9 @@ gap: 40px;
     
   
 }
-
+.bottom img{
+    display: none;
+}
 p{
  width: 600px;
 }
@@ -129,11 +131,21 @@ ul {
         display: flex;
         align-items: center;
     }
+    body{
+        height: auto;
+    }
     .nas{
         display: block;
     }
     .wrapper{
         margin: auto 20px;
+    }
+    .bottom img{
+        display: block;
+        width: auto;
+        height: 80vh;
+        margin-right: 290px;
+        border-radius: 40px;
     }
     
 }
