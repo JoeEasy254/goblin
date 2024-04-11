@@ -7,7 +7,7 @@ color: white;
 font-family: "Poppins";
 font-size: 16px;
 background-repeat: no-repeat;
-
+overflow-x: hidden;
 
 }
 
@@ -141,12 +141,14 @@ ul {
     .wrapper{
         margin: auto 20px;
     }
-    .bottom img{
-        display: block;
-        width: auto;
-        height: 80vh;
-      
-        border-radius: 40px;
+    .bottom{
+        display: flex;
+        justify-content: center;
     }
+    .bottom  img{
+        display: block;
+        height: 80vh;
+    }
+   
     
 }
